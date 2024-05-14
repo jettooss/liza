@@ -1,0 +1,238 @@
+html {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 80vh;
+  background-image: url("./assets/images/Fon1200.png");
+  background-repeat: no-repeat;
+}
+
+.Font {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-family: "Trebuchet MS", serif;
+}
+
+#Deviz {
+  padding-top: 80px;
+  margin-top: 0;
+  color: black;
+  font-size: 32px;
+}
+
+#P_zapis {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.input {
+  padding: 10px 20px;
+  margin: 0 0 10px 0;
+  right: 100px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 3px solid #376fb0;
+}
+
+#buttonSend {
+  padding: 8px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 3px solid black;
+  color: black;
+  background-color: rgba(81, 137, 201, 0.2);
+}
+
+#buttonSend:hover {
+  color: #fff;
+  background-color: #376fb0;
+}
+
+.MainMenu {
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  width: 1200px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Trebuchet MS", serif;
+}
+
+a:hover {
+  color: black;
+}
+
+.mainUl {
+  width: 630px;
+  display: flex;
+  margin-top: 0;
+}
+
+li {
+  font-size: 20px;
+  margin-right: 24px;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.Logo {
+  float: left;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.ImageCard {
+  position: relative;
+  text-align: center;
+  top: 20px;
+}
+
+.RatingCard {
+  position: relative;
+  top: -15px;
+  height: 25px;
+  width: 110px;
+  margin-left: 25px;
+  background-color: white;
+}
+
+.DescriptionCard {
+  display: block;
+  color: black;
+  position: relative;
+  text-align: center;
+  top: -45px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  position: relative;
+  top: -30px;
+}
+
+#Button {
+  position: relative;
+  top: -35px;
+  background-color: #1a8acc;
+  color: white;
+  width: 120px;
+  height: 30px;
+  border-color: #376fb0;
+  border-radius: 7px;
+}
+
+.AllCard {
+  display: block;
+  margin: 30px auto 0 auto;
+  border-radius: 20px;
+  background-color: #1a8acc;
+}
+
+.Cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  justify-items: center;
+  column-gap: 30px;
+  /*Отступ между колонками*/
+  row-gap: 20px;
+  /*Отступ между рядами*/
+  margin: 0 auto;
+}
+
+#Profi {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Trebuchet MS", serif;
+}
+
+.AllButtons {
+  /*display: inline;*/
+  display: flex;
+  /*text-align: center;*/
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ButtonPage {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  background-color: rgba(26, 138, 204, 0.2);
+
+}
+
+.ButtonMore {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 200px;
+  font-family: "Trebuchet MS", serif;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #1a8acc;
+  color: white;
+  border-color: #376fb0;
+}
+
+.ButtonMore:hover {
+  background-color: white;
+  color: #1a8acc;
+}
+
+.AllStars {
+  position: relative;
+  top: -8px;
+  font-size: 25px;
+  display: inline;
+  color: #1a8acc;
+}
+
+.AllStars::before {
+  content: "★★★★★";
+  display: block;
+}
+
+.Stars {
+  visibility: hidden;
+}
